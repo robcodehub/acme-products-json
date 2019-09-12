@@ -1,0 +1,24 @@
+{
+  "name": "acme-products-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcodehub/acme-products-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robcodehub/acme-products-json/issues"
+  },
+  "homepage": "https://github.com/robcodehub/acme-products-json#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
