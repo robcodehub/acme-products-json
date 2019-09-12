@@ -50,7 +50,7 @@ input, button{
               <ul>
                 {
                   products.map( product => <li onClick={()=> console.log('TO DO Destroy')} key={ product.id }>
-                    <div>{ product.name }</div>
+                    <div>{ product.name }</div><div> ${ product.price }</div>
                   </li>)
                 }
               </ul>
